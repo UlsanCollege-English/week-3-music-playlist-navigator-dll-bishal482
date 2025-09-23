@@ -96,4 +96,3 @@ def test_add_play_nav_insert_remove():
     assert p.remove_current() is True
     assert p.to_list() == ["A", "B", "C"]
     print("All tests passed! ✅")
-
